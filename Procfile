@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/heroku-example -Dhttp.port=$PORT
+web: target/universal/stage/bin/myScalatraApp -Dhttp.port=$PORT
