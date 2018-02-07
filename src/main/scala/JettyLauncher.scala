@@ -14,6 +14,9 @@ object JettyLauncher {
    context.setResourceBase("src/main/webapp")
 
    context.addServlet(classOf[com.example.app.MyScalatraServlet], "/*")
+   context.addServlet(classOf[DefaultServlet], "/")
+
+
    server.setHandler(context)
 
    server.start
