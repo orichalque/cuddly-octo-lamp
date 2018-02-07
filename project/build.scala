@@ -1,5 +1,5 @@
 import com.typesafe.sbt.packager.archetypes.JavaAppPackaging
 
-val project = Project (
+object project = Project (
 
 ).enablePlugins(JavaAppPackaging)
